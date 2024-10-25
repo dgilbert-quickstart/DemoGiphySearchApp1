@@ -95,7 +95,7 @@ document.getElementById("btn-search").addEventListener("click",async =>{
                 //display image 
                 //outputDiv.innerHTML = `<img width='300' height='200' src='${_img_url}'>`
 
-                let _html = "<div>"
+                let _html = "<div class='center-content'>"
 
                 /*
                 for(i=0;i<results.data.length-1;i++){
