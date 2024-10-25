@@ -112,7 +112,7 @@ document.getElementById("btn-search").addEventListener("click",async =>{
                 //## forEaach - es5+ -- loop through all item 
                 results.data.forEach((item, index) => {
 
-                    if(index <= 5){
+                    if(index <= 20){
                         
                         //const _img_url = results.data[i].images.original.url;
                         const _img_url = item.images.original.url;
