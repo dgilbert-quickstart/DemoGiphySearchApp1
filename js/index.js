@@ -156,8 +156,7 @@ document.getElementById("btn-reset").addEventListener("click", async =>{
 
     try {
 
-        
-        msg = "## btn-reset ";
+        msg = "";
         outputDiv.innerText = msg;
 
         let _txtsearch = document.getElementById("txtsearch");
