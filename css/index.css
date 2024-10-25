@@ -24,5 +24,19 @@
 }
 
 /*
-media query - for screen sizes <= 320 
+media query - for screen sizes <= 320px
 */
+@media screen and (max-with: 320px){
+    .center-content
+    {
+        border: 2px solid red;
+        margin:20px
+    }
+
+    h1{
+        border: 2px solid red;
+    }
+
+}
+
+
