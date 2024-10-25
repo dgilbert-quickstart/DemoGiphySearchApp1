@@ -150,4 +150,29 @@ document.getElementById("btn-search").addEventListener("click",async =>{
 })
 
 
+document.getElementById("btn-reset").addEventListener("click", async =>{
+    
+    let msg = "";
+
+    try {
+
+        
+        msg = "## btn-reset ";
+        outputDiv.innerText = msg;
+
+        let _txtsearch = document.getElementById("txtsearch");
+        _txtsearch.value = "";
+        _txtsearch.focus();
+
+    } catch (error) {
+        
+        console.log("## btn-reset - error ")
+        console.log(error)
+
+        msg = "## btn-reset - error ";
+        outputDiv.innerText = msg;
+    }
+})
+
+
 
